@@ -101,3 +101,19 @@ This is a joke.... The asset is showing a prototype plant built in the 80s that 
 | MW per tile | 1.54 | ? | 0.000087 |
 
 
+## Nuclear
+This is the only power plant in the game with a realistic power for one unit. Most nuclear power plants are around 900-1000MW and 640MW is "not that far out" when counting the average over the year. Capacity factor ~90%
+
+To make this the late game "alot of power"-plant we aim for the largest nuclear unit of around 1600MW. The asset is showing 2 reactor units in the asset but as with everything we treat it as one unit. 
+
+
+
+250x360m for main buildings for one unit. 1600MW power. 0.0178MW/m²
+
+|                  | Game | Reallife | Mod |
+|------------------|------|----------|-----|
+| Power output    | 640  |  0.0135  |  0.0135   |
+| Cost per MW     |  ?  |   ?     |     ? |
+| Upkeep          |  2240  |    ?    |  ?   |
+| MW per tile | 4.75 | 1.1378 | 0.000087 |
+
