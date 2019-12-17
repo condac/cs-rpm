@@ -31,9 +31,9 @@ The scale of the drawn asset compared to real life and the space allowed between
 
 So this one is easy to make a final result of 1MW per plant.
 
-|                  | Game | Reallife | Mod |
-|------------------|------|----------|-----|
-| Power output    | 8  |  0.86  |  1   |
+|                  | Game | Reallife | Mod Visual| Mod Scale |
+|------------------|------|----------|-----|-----|
+| Power output    | 8  |  0.86  |  1   | ?
 | Cost per MW     |    |        |      |
 | Upkeep          |  80  |    ?    |  ?   |
 
@@ -42,7 +42,7 @@ This powerplant is treated as the best case scenario and most technically advanc
 
 Beeing offshore it have an expected year average production of 63%
 
-|                  | Game | Reallife | Mod |
+|                  | Game | Reallife | Mod Visual| Mod Scale |
 |------------------|------|----------|-----|
 | Power output    | 20  |  7.56  |  7.56   |
 | Cost per MW     |  ?  |   ?     |     ? |
@@ -63,7 +63,7 @@ So with some scale modifications this asset should be around 60MW
 
 30 tiles big asset.
 
-|                  | Game | Reallife | Mod |
+|                  | Game | Reallife | Mod Visual | Mod Scale |
 |------------------|------|----------|-----|
 | Power output    | 40  |  300-1000  |  60   |
 | Cost per MW     |  ?  |   ?     |     ? |
@@ -82,9 +82,9 @@ And the next thing is that the sun is not shining all the time making the Capaci
 
 I have not worked out a good scale factor but making it 1:1 this would make the plant in game 0.05MW
 
-|                  | Game | Reallife | Mod |
+|                  | Game | Reallife | Mod Visual | Mod Scale |
 |------------------|------|----------|-----|
-| Power output    | 160  |  10-20  |  0.05   |
+| Power output    | 160  |  10-20  | 5.4 | 0.05   |
 | Cost per MW     |  ?  |   ?     |     ? |
 | Upkeep          |  1200  |    ?    |  ?   |
 | MW per tile | 1.12 | 0.0003456 | ? |
@@ -93,7 +93,7 @@ I have not worked out a good scale factor but making it 1:1 this would make the 
 ## Solar Updraft Tower
 This is a joke.... The asset is showing a prototype plant built in the 80s that produced a peak power of 0.05MW, yet the game developers put this thing at 240MW... converting the peak power to total average power with the same capacity factor as the molten salt plant we get a power of 0.0135MW
 
-|                  | Game | Reallife | Mod |
+|                  | Game | Reallife | Mod Visual | Mod Scale |
 |------------------|------|----------|-----|
 | Power output    | 240  |  0.0135  |  0.0135   |
 | Cost per MW     |  ?  |   ?     |     ? |
@@ -108,12 +108,12 @@ To make this the late game "alot of power"-plant we aim for the largest nuclear 
 
 
 
-250x360m for main buildings for one unit. 1600MW power. 0.0178MW/m²
+250x360m for main buildings for one unit. 1600MW power. 0.0178MW/m²  If we scale this teh same way we did with solar power the realistic power per ingame tile is 153MW times 90% for the year average making it 138MW
 
-|                  | Game | Reallife | Mod |
+|                  | Game | Reallife | Mod Visual | Mod Scale |
 |------------------|------|----------|-----|
-| Power output    | 640  |  0.0135  |  0.0135   |
+| Power output    | 640  |  1000  |  800 | 138   |
 | Cost per MW     |  ?  |   ?     |     ? |
 | Upkeep          |  2240  |    ?    |  ?   |
-| MW per tile | 4.75 | 1.1378 | 0.000087 |
+| MW per tile | 4.75 | 1.1378 | ? |
 
