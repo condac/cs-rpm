@@ -72,7 +72,7 @@ So with some scale modifications this asset should be around 60MW
 
 
 
-## Solar
+## Solar power plant
 1000w/m² is the total power the suns rays under the most optimal condition, this means that solar power can never be better than 0.064MW/tile if the solar catching unit have 100% efficency, but solar panels have at max 20%. 0.0128 MW/tile.
 
 The power plant shown in the asset is of a heat tower model. It use mirrors and focus heat and then boils water or heat molten salt. This gives it a rough efficency of 50% in the molten salt to turbine convertion. 
@@ -80,10 +80,24 @@ The power plant shown in the asset is of a heat tower model. It use mirrors and 
 Looking at the asset the tower looks like the 20MW models in spain, it uses 930x1040m area so in reality we get ~0.00002MW/m²
 And the next thing is that the sun is not shining all the time making the Capacity factor	27%. We end up with about 0.0000054MW/m². This makes the solar power in game about 3000 times more powerfull than real life when scaled to the game.
 
+I have not worked out a good scale factor but making it 1:1 this would make the plant in game 0.05MW
+
 |                  | Game | Reallife | Mod |
 |------------------|------|----------|-----|
-| Power output    | 160  |  10-20  |  ?   |
+| Power output    | 160  |  10-20  |  0.05   |
 | Cost per MW     |  ?  |   ?     |     ? |
 | Upkeep          |  1200  |    ?    |  ?   |
 | MW per tile | 1.12 | 0.0003456 | ? |
+
+
+## Solar Updraft Tower
+This is a joke.... The asset is showing a prototype plant built in the 80s that produced a peak power of 0.05MW, yet the game developers put this thing at 240MW... converting the peak power to total average power with the same capacity factor as the molten salt plant we get a power of 0.0135MW
+
+|                  | Game | Reallife | Mod |
+|------------------|------|----------|-----|
+| Power output    | 240  |  0.0135  |  0.0135   |
+| Cost per MW     |  ?  |   ?     |     ? |
+| Upkeep          |  2240  |    ?    |  ?   |
+| MW per tile | 1.54 | ? | 0.000087 |
+
 
