@@ -9,6 +9,11 @@ Because the game has no power banks or any good way to handle variating power lo
 
 Also there is a need to keep the game progress fun so there must be small cheap alternatives early game. This is a reason to the size of the coal power beeing a bit smaller but cost factors should be realistic. 
 
+# Cost
+Cost is hard because there is no good value convertion and weekly cost is hard to estimate. But there is an average we can calculate and work from there. 
+
+This is the part where you as a community can help calculate some numbers.
+
 # Powerplants reallife comparision
 Here is the list of the powerplants in the game and whats wrong with them compared to real life...
 
@@ -18,7 +23,7 @@ Lots of data is just straight from wikipedia where there is no reason do doubt t
 
 Wind data is based on wind tubines in Sweden duing 2014 and 2018. The average installed size between these dates is 3.45 MW per turbine. During the year the average power production is 25% of the installed power capacity. This makes each plant around 0.86MW.  The manufacturers claim that 2018 was not a normal wind year so the productivity is expected to be around 30% so for simplicity we round the numbers to 1MW. 
 
-The scale of the drawn asset compared to real life and the space allowed between looks realistic so no scale modifier is used. 
+The scale of the drawn asset compared to real life and the space allowed between looks ok so no scale modifier is used. 
 
 So this one is easy to make a final result of 1MW per plant.
 
@@ -26,6 +31,18 @@ So this one is easy to make a final result of 1MW per plant.
 |------------------|------|----------|-----|
 | Power output    | 8  |  0.86  |  1   |
 | Cost per MW     |    |        |      |
-| Upkeep          |    |        |     |
+| Upkeep          |  80  |    ?    |  ?   |
+
+## Advanced Wind Turbine
+This powerplant is treated as the best case scenario and most technically advanced we can find in wind power. So i googled world largest wind turbine and found: Haliade-X 12 MW
+
+Beeing offshore it have an expected year average production of 63%
+
+|                  | Game | Reallife | Mod |
+|------------------|------|----------|-----|
+| Power output    | 20  |  7.56  |  7.56   |
+| Cost per MW     |  ?  |   ?     |     ? |
+| Upkeep          |  200  |    ?    |  ?   |
+
 
 
