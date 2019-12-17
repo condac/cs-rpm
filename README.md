@@ -14,6 +14,10 @@ Cost is hard because there is no good value convertion and weekly cost is hard t
 
 This is the part where you as a community can help calculate some numbers.
 
+# Important difference between units and stations/plants
+If you google biggest power plants you get a list that say that Kashiwazaki-Kariwa Nuclear Power Plant is the biggest nuclear power plant at 7965 MW. But this number is based on multiple power plants that are located at the area. We need to look at the individuial unit at the area. So in this case there is 7 nuclear power plants in this station at 1000-1300MW each. And this is the case for all coal/gas/oil plants/stations/units.
+
+
 # Powerplants reallife comparision
 Here is the list of the powerplants in the game and whats wrong with them compared to real life...
 
@@ -43,6 +47,26 @@ Beeing offshore it have an expected year average production of 63%
 | Power output    | 20  |  7.56  |  7.56   |
 | Cost per MW     |  ?  |   ?     |     ? |
 | Upkeep          |  200  |    ?    |  ?   |
+| MW per cell | ? | ? | ? |
 
+## Coal Power Plant
+The coal power plant is a starter plant, the asset is also taking a small area. This have made med to look for smaller installation of coal plants as reference. 
 
+Coal plants are very flexible in size because you boil water and spin a turbine so you can adjust the size of the turbine to match you needs, some plants have more than one turbine connected to one boiler making the biggest boilers in the world output over 1000MW
+
+China is the biggest user of Coal plants so looking around i can find large powerstations that have units of 600MW as the average size. But this is a starter plant for the game so we need to look small. But there are some plants 300MW in size. And with some scale factors this can probably end up as a smaller plant in game. 
+
+The scale of a 7000MW station including coalstorage and train depot is 1.0x1.0km. The chineese know how to build compact that is for sure when you look at some satelite photos of the areas. This makes the power per area to 0.007MW/m^2. making it 0.448 MW/tile in game based on 8x8m tiles.  
+If we look at the bare minimum of the boiler and turbine and ignore all area for coal storage and trains the boilers and turbines for a 1000MW plant is 250x130m (this is what you can see in the game asset). This makes it 1.97 MW/tile.
+
+So with some scale modifications this asset should be around 60MW
+
+30 tiles big asset.
+
+|                  | Game | Reallife | Mod |
+|------------------|------|----------|-----|
+| Power output    | 40  |  300-1000  |  60   |
+| Cost per MW     |  ?  |   ?     |     ? |
+| Upkeep          |  560  |    ?    |  ?   |
+| MW per tile | 1.34 | 0.448-1.97 | ? |
 
