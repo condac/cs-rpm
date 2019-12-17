@@ -27,7 +27,7 @@ Lots of data is just straight from wikipedia where there is no reason do doubt t
 
 Wind data is based on wind tubines in Sweden duing 2014 and 2018. The average installed size between these dates is 3.45 MW per turbine. During the year the average power production is 25% of the installed power capacity. This makes each plant around 0.86MW.  The manufacturers claim that 2018 was not a normal wind year so the productivity is expected to be around 30% so for simplicity we round the numbers to 1MW. 
 
-The scale of the drawn asset compared to real life and the space allowed between looks ok so no scale modifier is used. 
+The scale of the drawn asset compared to real life and the space allowed between looks ok, so no scale modifier is used. 
 
 So this one is easy to make a final result of 1MW per plant.
 
@@ -69,4 +69,21 @@ So with some scale modifications this asset should be around 60MW
 | Cost per MW     |  ?  |   ?     |     ? |
 | Upkeep          |  560  |    ?    |  ?   |
 | MW per tile | 1.34 | 0.448-1.97 | ? |
+
+
+
+## Solar
+1000w/m² is the total power the suns rays under the most optimal condition, this means that solar power can never be better than 0.064MW/tile if the solar catching unit have 100% efficency, but solar panels have at max 20%. 0.0128 MW/tile.
+
+The power plant shown in the asset is of a heat tower model. It use mirrors and focus heat and then boils water or heat molten salt. This gives it a rough efficency of 50% in the molten salt to turbine convertion. 
+
+Looking at the asset the tower looks like the 20MW models in spain, it uses 930x1040m area so in reality we get ~0.00002MW/m²
+And the next thing is that the sun is not shining all the time making the Capacity factor	27%. We end up with about 0.0000054MW/m². This makes the solar power in game about 3000 times more powerfull than real life when scaled to the game.
+
+|                  | Game | Reallife | Mod |
+|------------------|------|----------|-----|
+| Power output    | 160  |  10-20  |  ?   |
+| Cost per MW     |  ?  |   ?     |     ? |
+| Upkeep          |  1200  |    ?    |  ?   |
+| MW per tile | 1.12 | 0.0003456 | ? |
 
