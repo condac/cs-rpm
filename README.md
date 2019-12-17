@@ -32,8 +32,8 @@ The scale of the drawn asset compared to real life and the space allowed between
 So this one is easy to make a final result of 1MW per plant.
 
 |                  | Game | Reallife | Mod Visual| Mod Scale |
-|------------------|------|----------|-----|-----|
-| Power output    | 8  |  0.86  |  1   | ?
+|------------------|------|----------|-----------|-----------|
+| Power output    | 8  |  0.86  |  1   | ? |
 | Cost per MW     |    |        |      |
 | Upkeep          |  80  |    ?    |  ?   |
 
@@ -43,7 +43,7 @@ This powerplant is treated as the best case scenario and most technically advanc
 Beeing offshore it have an expected year average production of 63%
 
 |                  | Game | Reallife | Mod Visual| Mod Scale |
-|------------------|------|----------|-----|
+|------------------|------|----------|-----------|-----------|
 | Power output    | 20  |  7.56  |  7.56   |
 | Cost per MW     |  ?  |   ?     |     ? |
 | Upkeep          |  200  |    ?    |  ?   |
@@ -58,17 +58,18 @@ China is the biggest user of Coal plants so looking around i can find large powe
 
 The scale of a 7000MW station including coalstorage and train depot is 1.0x1.0km. The chineese know how to build compact that is for sure when you look at some satelite photos of the areas. This makes the power per area to 0.007MW/m^2. making it 0.448 MW/tile in game based on 8x8m tiles.  
 If we look at the bare minimum of the boiler and turbine and ignore all area for coal storage and trains the boilers and turbines for a 1000MW plant is 250x130m (this is what you can see in the game asset). This makes it 1.97 MW/tile.
+If we put the 300MW unit in that area we have 0.6MW/tile
 
 So with some scale modifications this asset should be around 60MW
 
 30 tiles big asset.
 
-|                  | Game | Reallife | Mod Visual | Mod Scale |
-|------------------|------|----------|-----|
-| Power output    | 40  |  300-1000  |  60   |
+|                  | Game | Reallife | Mod Visual| Mod Scale |
+|------------------|------|----------|-----------|-----------|
+| Power output    | 40  |  300-1000  |  300   | 18 |
 | Cost per MW     |  ?  |   ?     |     ? |
 | Upkeep          |  560  |    ?    |  ?   |
-| MW per tile | 1.34 | 0.448-1.97 | ? |
+| MW per tile | 1.34 | 0.448-1.97 | 0.6 |
 
 
 
@@ -82,8 +83,8 @@ And the next thing is that the sun is not shining all the time making the Capaci
 
 I have not worked out a good scale factor but making it 1:1 this would make the plant in game 0.05MW
 
-|                  | Game | Reallife | Mod Visual | Mod Scale |
-|------------------|------|----------|-----|
+|                  | Game | Reallife | Mod Visual| Mod Scale |
+|------------------|------|----------|-----------|-----------|
 | Power output    | 160  |  10-20  | 5.4 | 0.05   |
 | Cost per MW     |  ?  |   ?     |     ? |
 | Upkeep          |  1200  |    ?    |  ?   |
@@ -93,12 +94,15 @@ I have not worked out a good scale factor but making it 1:1 this would make the 
 ## Solar Updraft Tower
 This is a joke.... The asset is showing a prototype plant built in the 80s that produced a peak power of 0.05MW, yet the game developers put this thing at 240MW... converting the peak power to total average power with the same capacity factor as the molten salt plant we get a power of 0.0135MW
 
-|                  | Game | Reallife | Mod Visual | Mod Scale |
-|------------------|------|----------|-----|
-| Power output    | 240  |  0.0135  |  0.0135   |
+This plant had an area of 250x250m. Making the resulting power per area 432 times worse than the solar tower PS20. And if you cover the same area with modern solar panels for home use you will get a peak power of 9MW. 
+
+
+|                  | Game | Reallife | Mod Visual| Mod Scale |
+|------------------|------|----------|-----------|-----------|
+| Power output    | 240  |  0.0135  |  0.0135   |  0.0001248 |
 | Cost per MW     |  ?  |   ?     |     ? |
 | Upkeep          |  2240  |    ?    |  ?   |
-| MW per tile | 1.54 | ? | 0.000087 |
+| MW per tile | 1.54 | 0.0000008 | 0.000087 |
 
 
 ## Nuclear
@@ -110,10 +114,23 @@ To make this the late game "alot of power"-plant we aim for the largest nuclear 
 
 250x360m for main buildings for one unit. 1600MW power. 0.0178MW/m²  If we scale this teh same way we did with solar power the realistic power per ingame tile is 153MW times 90% for the year average making it 138MW
 
-|                  | Game | Reallife | Mod Visual | Mod Scale |
-|------------------|------|----------|-----|
-| Power output    | 640  |  1000  |  800 | 138   |
+|                  | Game | Reallife | Mod Visual| Mod Scale |
+|------------------|------|----------|-----------|-----------|
+| Power output    | 640  |  1000  |  800  |  138   |
 | Cost per MW     |  ?  |   ?     |     ? |
 | Upkeep          |  2240  |    ?    |  ?   |
 | MW per tile | 4.75 | 1.1378 | ? |
 
+
+## Oil Power Plant
+120MW 8x5
+The area of a oil plant is roughly the same as with coal and nuclear, they all have the same tech of boiling water and spinning a steam turbine.
+
+If we want this to be the midgame tier we aim at about 600MW units that is a common average for steam turbines. 
+
+|                  | Game | Reallife | Mod Visual| Mod Scale |
+|------------------|------|----------|-----------|-----------|
+| Power output    | 640  |  1000  |  600 | 40   |
+| Cost per MW     |  ?  |   ?     |     ? |
+| Upkeep          |  1920  |    ?    |  ?   |
+| MW per tile | 3 | 1 | ? |
