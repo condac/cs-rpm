@@ -134,3 +134,15 @@ If we want this to be the midgame tier we aim at about 600MW units that is a com
 | Cost per MW     |  ?  |   ?     |     ? |
 | Upkeep          |  1920  |    ?    |  ?   |
 | MW per tile | 3 | 1 | ? |
+
+
+## Hydro Power Plant
+
+This is the most broken and useless power plant in game. The official wiki for the game shows that the week upkeep is variating, but it is not, it will aways cost you the huge amount of 3200/week, and if you manage to get a good 100MW plant you are still paying 6 times more than for other plants. 
+
+In real life this is almost free power, there is minimal cost for maintinance. But some large initial investments.
+
+This mod will try and adjust the upkeep to reflect real life condition, and the power output is not made the same as other game assets so I think we can not mod this at the moment. 
+
+
+
